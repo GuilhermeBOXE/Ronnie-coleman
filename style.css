@@ -1,0 +1,82 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #f9c802;
+}
+
+header h1 {
+    color: #f9c802;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f9c802;
+}
+
+/* Seções */
+.content {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.content.dark {
+    background-color: #1a1a1a;
+    border-top: 2px solid #f9c802;
+    border-bottom: 2px solid #f9c802;
+}
+
+/* Imagem */
+.ronnie-img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 3px solid #f9c802;
+}
+
+/* Citação */
+blockquote {
+    background: #222;
+    border-left: 5px solid #f9c802;
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #aaa;
+}
